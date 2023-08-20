@@ -1,0 +1,18 @@
+{
+  "name": "easy",
+  "version": "1.0.0",
+  "description": "easy to classes in TS",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only index2.ts"
+  },
+  "keywords": [
+    "class",
+    "typescript",
+    "easy",
+    "methods",
+    "node"
+  ],
+  "author": "Peter Oti",
+  "license": "MIT"
+}
