@@ -4,7 +4,7 @@
   "description": "easy to classes in TS",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only index2.ts"
+    "start": "ts-node-dev --respawn --transpile-only server.ts"
   },
   "keywords": [
     "class",
@@ -14,5 +14,13 @@
     "node"
   ],
   "author": "Peter Oti",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "cloudinary": "^1.40.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "multer": "^1.4.5-lts.1"
+  }
 }
